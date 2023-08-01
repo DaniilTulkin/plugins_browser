@@ -1,0 +1,18 @@
+<div class="container-1">
+    <div class="container-1-1">
+        <div class="text-bold">{{plugin.shortName}}</div>
+        <div class="text-regular">{{plugin.name}}</div> 
+    </div>
+    <div class="container-1-2">
+        <app-button-oval-small
+            [text]="'Run'"
+            [stroke]="'--green'"
+            (click)="runPlugin(plugin.dllName)">
+        </app-button-oval-small>
+        <app-button-oval-small
+            [text]="'Information'"
+            [stroke]="'--blue'"
+            (click)="emitPlugin()">
+        </app-button-oval-small>
+    </div>  
+</div>

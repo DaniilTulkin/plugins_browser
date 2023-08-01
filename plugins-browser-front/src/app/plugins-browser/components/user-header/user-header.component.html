@@ -1,0 +1,16 @@
+<div class="container-1">
+    <div class="container-1-1">
+        <div class="text-bold">
+            Plugins 
+            <span>Browser</span>
+        </div>
+        <div class="text-bold container-1-1-1">
+            Hello,&nbsp;
+            <span>{{tokenService.getUser()}}</span>
+            <svg xmlns="http://www.w3.org/2000/svg"
+                (click)="authService.logout()">
+                <circle cx="11" cy="11" r="10" />
+            </svg>
+        </div>
+    </div>
+</div>

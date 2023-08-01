@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name>plugins-browser-back-revit</Name>
+		<Assembly>plugins_browser_back_revit\plugins-browser-back-revit.dll</Assembly>
+		<ClientId>0E16943B-98F9-444B-B859-6C3578A6EA66</ClientId>
+		<FullClassName>plugins_browser_back_revit.App</FullClassName>
+		<Text>plugins-browser-back-revit</Text>
+		<VendorId>tulkindaniilal</VendorId>
+		<VendorDescription>tulkindaniilal, https://www.linkedin.com/in/daniil-tulkin-8353b9217/</VendorDescription>
+	</AddIn>
+</RevitAddIns>
